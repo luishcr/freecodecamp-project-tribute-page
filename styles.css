@@ -1,0 +1,132 @@
+/* ----------------------- */
+/*   GLOBALS   */
+/* ----------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Tangerine&family=Ubuntu+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Ubuntu Mono", monospace, Helvetica, sans-serif;
+  background-color: lemonchiffon;
+  font-size: 62.5%;
+}
+
+/* ----------------------- */
+/*   MAIN   */
+/* ----------------------- */
+#title {
+  margin: 4rem;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#main {
+  margin: 2rem;
+  padding: 2rem;
+}
+
+#img-div {
+  border: 0.1rem gray solid;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  max-width: 60rem;
+  margin: 2rem auto;
+}
+
+#image {
+  display: block;
+  width: 100%;
+  border-radius: 0.2rem;
+}
+
+#img-caption {
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+#tribute-info {
+  margin: 6rem auto;
+  max-width: 120rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#tribute-info h2,
+#tribute-history h2 {
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+#tribute-info p {
+  font-size: 2rem;
+  padding: 2rem;
+  line-height: 3rem;
+  text-align: justify;
+}
+
+#tribute-history {
+  max-width: 120rem;
+  margin: auto;
+}
+
+#tribute-history p {
+  font-size: 2rem;
+  padding: 2rem;
+  line-height: 3rem;
+  text-align: justify;
+}
+
+#tribute-link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+}
+
+#tribute-link:hover {
+  color: rgb(0, 255, 34);
+}
+
+/* ----------------------- */
+/*   FOOTER   */
+/* ----------------------- */
+
+footer {
+  margin: 2rem;
+  text-align: center;
+}
+
+footer hr {
+  margin: auto;
+  max-width: 120rem;
+}
+
+footer p {
+  font-size: 1.8rem;
+  margin: 1rem;
+}
+
+/* ----------------------- */
+/*   MEDIA QUERIES   */
+/* ----------------------- */
+@media screen and (max-width: 50rem) {
+  #tribute-info {
+    grid-template-columns: 1fr;
+  }
+
+  #main {
+    margin: 0;
+    padding: 0;
+  }
+}
